@@ -21,28 +21,22 @@ validation 1,324 / test 860. Labels: clean (NOT) / offensive (OFF).
 Requires Python 3.10–3.12 (tested on macOS, Apple Silicon).
 
 ```bash
-git clone <this repo> && cd chat-moderation
+git clone https://github.com/NilsuKina/chat-moderation.git && cd chat-moderation
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Run
-
-Train all models, quantize and evaluate (≈10–20 min on a laptop, downloads the dataset and
-`distilbert-base-uncased` automatically):
+## Run (single command)
 
 ```bash
-bash run_all.sh
+bash run_all.sh && python app.py
 ```
 
-Start the app:
-
-```bash
-python app.py
-```
-
-Then open http://127.0.0.1:7860. Model weights are written to `models/` and are not part of
-the repository.
+`run_all.sh` downloads the dataset and `distilbert-base-uncased`, trains all models, quantizes
+DistilBERT and evaluates every model on the same test set (≈10–15 min on a laptop; the laptop is
+slow while DistilBERT trains). `app.py` then starts the Gradio app at http://127.0.0.1:7860.
+Model weights are written to `models/` and are not stored in the repository (too large);
+they are re-created by `run_all.sh`. Next time, `python app.py` alone starts the app.
 
 ## Files
 
@@ -61,10 +55,8 @@ app.py              Gradio application
 
 ## Results
 
-See `results/results.md` (produced by `evaluate.py`).
-
 Same held-out test set (860 tweets). MacBook Air M2, CPU only, 4 threads, batch size 1,
-latency = mean over 200 messages after warm-up.
+latency = mean over 200 messages after warm-up. Produced by `evaluate.py` (`results/results.md`).
 
 | Model | Macro-F1 | Accuracy | Size (MB) | Latency mean (ms) | p95 (ms) |
 |---|---|---|---|---|---|
