@@ -1,0 +1,9 @@
+torch>=2.5,<2.10
+transformers>=4.44,<5
+datasets>=2.20
+scikit-learn>=1.4
+numpy
+pandas
+tabulate
+joblib
+gradio>=4.40

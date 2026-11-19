@@ -1,0 +1,27 @@
+# DistilBERT INT8 (quantized): 138 errors on 860 test messages
+
+- true=clean  p(offensive)=0.57  :: @user @user @user I got in a pretty deep debate with my friend and she told me that latinos for Trump and blacks for Trump were paid supporters 😂 then I said you mean antifa are paid domestic terrorist and she said No they are  anti-fascist then I said they are the fascist are you kidding me?!
+- true=offensive  p(offensive)=0.44  :: #ConstitutionDay It's very odd for the alt right conservatives to say that we are ruining the constitution just because we want #GunControlNow but they are the ones ruining the constitution getting upset because foreigners are coming to this land who are not White wanting to live
+- true=offensive  p(offensive)=0.50  :: @user @user @user She is the most disingenuous person in the Senate. If she was my Senator I would hide in shame after her despicable behavior in the SCOTUS hearings.
+- true=offensive  p(offensive)=0.05  :: #EmmyAwards2018 - Ratings tank as expected.  Who can possibly stand to watch so many liberals in one place at one time.
+- true=offensive  p(offensive)=0.40  :: #Conservatives We mus pray for liberals. They trooly kno knot watt they do. I was brot up socialist democrat, by my wonderful, but, ignorant parents. I served inda military. I learnd I can serve Christ, too. Eye reel -eyesed CONSERVATIVISM was more closely aligned w God.
+- true=clean  p(offensive)=0.65  :: #HIAC: Why is it this match too with Becky vs Charlotte kinda sucky so far? They are taking shots back and forth and stumbling around like a drunk version of Final Fantasy or something.
+- true=offensive  p(offensive)=0.29  :: #ICYMI - Liberals' Favorite Myth That Obama Was a Law Professor Is Now Destroyed?!
+- true=clean  p(offensive)=0.72  :: #NewVideo 🍆🍑💦 Sex Toys, Anyone?
+- true=offensive  p(offensive)=0.33  :: @user #Diversity only works when those joining the new group want to be a part of the team.   #Islam hates every non-Muslim   #Fail  #Unicorns
+- true=offensive  p(offensive)=0.19  :: #BlueWave #DumpTrump …give my love 2, or cooperate/compromise w/, conservatives/Trump supporters who constantly vilify marginalized groups, who constantly attack women’s rights 2 make choices about their own bodies,…
+- true=offensive  p(offensive)=0.47  :: #Democrat controlled city with strict gun control laws and @user wants to blame the #GOP Um, isn’t it you rich #Democrats trying to keep the blacks in poverty? #WalkAway
+- true=offensive  p(offensive)=0.23  :: @user To demonstrate how wholly incapable of carrying a thought to its logical conclusion she is?
+- true=offensive  p(offensive)=0.05  :: #auspol  I don't know why he is still in his job. Seriously.
+- true=offensive  p(offensive)=0.34  :: #DespicableDems lie again about rifles. Dem Distorted the Law to Push Gun-Control at Kavanaugh Confirmation via @user
+- true=offensive  p(offensive)=0.04  :: #Liberals / #Democrats THIS is what you stand for. If not, then #WalkAway
+- true=offensive  p(offensive)=0.35  :: #PoliticsInFocus Look Donald! You are only a duck, stop patronizing me!
+- true=offensive  p(offensive)=0.33  :: #FF @user he is an alien from the future 🙌🏻👽🌃
+- true=offensive  p(offensive)=0.16  :: #America  ... tear down that #Wall! #tcot #partisanship #Trump #thewall #Borderwall #liberty #civilsociety #think #Conservatives #Democrats #Progressives #liberals #Independent #libertarians #GOP #DNC #CriticalThinking
+- true=offensive  p(offensive)=0.26  :: @user #Holder needed to be impeached
+- true=clean  p(offensive)=0.58  :: #TEAM4THEBEEZ PLEASE SHARE THIS PUP DID NOTHING EXCEPT HIS OWNER DIED AND HE WAS #DUMPED2DIE AT SHELTER HE IS IN GRIEF FOR HIS OWNER AND TERRIFIED IN NOISY SHELTER PLEASE #NOKILLSHELTERNATION IS WHAT WE NEED BUT LETS FIND THIS POOR PUP A #HEROES2ANIMALS
+- true=offensive  p(offensive)=0.12  :: #MAGA #Qanon #GreatAwakening #inners #WWG1WGA #NowComesThePain #WalkAway #GoodbyeDemocrats   Ellison Accuser Says She's Been Sidelined By Her Own Party
+- true=offensive  p(offensive)=0.38  :: #LiberalHypocrisy #criminal #democrat #evidence #ellison #liberals #Hypocrites Keith Ellison domestic violence accuser says Democratic party doesn't believe her story
+- true=offensive  p(offensive)=0.36  :: #Antifa protest in #Athens for the 5 years after the murder of Pavlos Fyssas by Golden Dawn.  Their voters are complicit to their crimes. #KillahP
+- true=offensive  p(offensive)=0.38  :: #Benghazi  #Haiti  #UraniumOne  #SethRich What more does the justice department need? No double standards! Just because you're Rich and Powerful doesn't mean you can rob, seal and murder! #DrainTheSwamp  #HillaryForPrison  #VoteRed #MAGA
+- true=offensive  p(offensive)=0.45  :: #Emmys  Well, most of those ex-crackheads are liberals and Democrats; so ...
